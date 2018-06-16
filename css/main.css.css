@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "config.rb": expected "{", was ""
+        on line 4 of /Users/sa_ya/tree/scss/main.css.scss
+
+1: css /
+2: scss /
+3:   main.css.scss
+4: config.rb
+
+Backtrace:
+/Users/sa_ya/tree/scss/main.css.scss:4
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:665:in `block'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:658:in `ruleset'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:674:in `block_contents'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Users/sa_ya/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"config.rb\": expected \"{\", was \"\"\A         on line 4 of /Users/sa_ya/tree/scss/main.css.scss\A \A 1: css /\A 2: scss /\A 3:   main.css.scss\A 4: config.rb"; }
